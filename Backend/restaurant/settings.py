@@ -104,25 +104,25 @@ WSGI_APPLICATION = "restaurant.wsgi.application"
 #     }
 # }
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'sloozer',
-        'USER': 'postgres',
-        'PASSWORD': 'Benyo0310',
-        'HOST': 'localhost',
-        'PORT': '5432',
-    }
-}
-
 # DATABASES = {
-#     'default': dj_database_url.config(
-#         default=config('DATABASE_URL'),
-#         conn_max_age=600,
-#         conn_health_checks=True,
-#         ssl_require=True
-#     )
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'sloozer',
+#         'USER': 'postgres',
+#         'PASSWORD': 'Benyo0310',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
 # }
+
+DATABASES = {
+    'default': dj_database_url.config(
+        default=config('DATABASE_URL'),
+        conn_max_age=600,
+        conn_health_checks=True,
+        ssl_require=True
+    )
+}
 
 
 # Password validation
