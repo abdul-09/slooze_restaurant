@@ -32,9 +32,10 @@ SECRET_KEY = 'django-insecure-=$zwlk9#8350s7zpr_$x=c2x7+#p0of=ml#ffeqh*wciy35+tn
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'https://slooze-restaurant.onrender.com',
-    'http://127.0.0.1:8000'
-    ]
+    "slooze-restaurant.onrender.com",
+    "127.0.0.1",
+    "localhost"
+]
 
 
 
