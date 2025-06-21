@@ -31,7 +31,10 @@ SECRET_KEY = 'django-insecure-=$zwlk9#8350s7zpr_$x=c2x7+#p0of=ml#ffeqh*wciy35+tn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'https://slooze-restaurant.vercel.app/',
+    'http://127.0.0.1:8000'
+    ]
 
 
 
@@ -101,15 +104,25 @@ WSGI_APPLICATION = "restaurant.wsgi.application"
 #     }
 # }
 
-
 DATABASES = {
-    'default': dj_database_url.config(
-        default=config('DATABASE_URL'),
-        conn_max_age=600,
-        conn_health_checks=True,
-        ssl_require=True
-    )
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'sloozer',
+        'USER': 'postgres',
+        'PASSWORD': 'Benyo0310',
+        'HOST': 'localhost',
+        'PORT': '5432',
+    }
 }
+
+# DATABASES = {
+#     'default': dj_database_url.config(
+#         default=config('DATABASE_URL'),
+#         conn_max_age=600,
+#         conn_health_checks=True,
+#         ssl_require=True
+#     )
+# }
 
 
 # Password validation
@@ -241,7 +254,7 @@ CSRF_COOKIE_SAMESITE = 'Lax'
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:3000",
     "http://localhost:5173",
-    "https://frontend-restaurant-orcin.vercel.app",
+    "https://slooze-restaurant.vercel.app",
 ]
 
 # Session settings
@@ -254,7 +267,7 @@ CORS_ALLOW_CREDENTIALS = True
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:3000",
-    "https://frontend-restaurant-orcin.vercel.app",
+    "https://slooze-restaurant.vercel.app",
 ]
 CORS_ALLOW_METHODS = [
     'GET',

@@ -352,7 +352,7 @@ class PasswordResetView(APIView):
         token = token_generator.make_token(user)
         uid = urlsafe_base64_encode(force_bytes(user.pk))
 
-        reset_link = f"http://localhost:3000/reset-password/{uid}/{token}"
+        reset_link = f"https://slooze-restaurant.vercel.app/reset-password/{uid}/{token}"
         send_mail(
             'Password Reset',
             f'Click the link to reset your password: {reset_link}',
