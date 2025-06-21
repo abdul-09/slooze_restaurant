@@ -1,0 +1,1028 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2025-06-17T13:41:56.582Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Appetizer",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2025-06-17T13:42:06.927Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Beverage",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2025-06-17T13:42:18.322Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Main Course",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2025-06-17T13:42:28.250Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "4",
+    "object_repr": "Desserts",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2025-06-17T13:43:40.029Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "1",
+    "object_repr": "Mahal",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2025-06-17T13:44:52.142Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "2",
+    "object_repr": "Sarur",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2025-06-17T13:46:01.354Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "3",
+    "object_repr": "Jones",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2025-06-17T13:46:59.276Z",
+    "user": 1,
+    "content_type": 12,
+    "object_id": "4",
+    "object_repr": "Olive Garden",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2025-06-17T13:48:06.958Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Samosas (Mahal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2025-06-17T13:48:47.437Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Falouda (Mahal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2025-06-17T13:49:36.289Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Chicken Biryani (Mahal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2025-06-17T13:50:25.910Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "Gulab Jamun (Mahal)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2025-06-17T13:51:22.107Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "Pani Puri (Sarur)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2025-06-17T13:52:27.338Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "6",
+    "object_repr": "Murgh Makhani (Sarur)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2025-06-17T13:53:18.062Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "7",
+    "object_repr": "Mango Lassi (Sarur)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2025-06-17T13:54:04.456Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "8",
+    "object_repr": "Papri chaat (Sarur)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2025-06-17T13:54:58.200Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "9",
+    "object_repr": "Zuppa Toscana Soup (Jones)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2025-06-17T13:55:43.915Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "10",
+    "object_repr": "Pineapple Juice (Jones)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2025-06-17T13:56:32.074Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "11",
+    "object_repr": "Alfredo Pasta (Jones)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2025-06-17T13:57:16.319Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "12",
+    "object_repr": "Cookie Cheese Cake (Jones)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2025-06-17T13:58:03.210Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "13",
+    "object_repr": "Salad (Olive Garden)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2025-06-17T13:58:43.988Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "14",
+    "object_repr": "Avocado Juice (Olive Garden)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2025-06-17T13:59:24.701Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "15",
+    "object_repr": "Cream Caramel (Olive Garden)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2025-06-17T14:00:01.527Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Dumplings (Olive Garden)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2025-06-19T05:47:55.870Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "jane@customer.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2025-06-19T06:03:14.930Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "jane@customer.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2025-06-19T09:10:30.477Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "16",
+    "object_repr": "Dumplings (Olive Garden)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image url\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2025-06-19T13:32:08.999Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "abdulazizhussein4563@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Region\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2025-06-19T13:32:23.437Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "jane@customer.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2025-06-21T06:12:33.157Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "nickfury@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Role\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2025-06-21T06:55:53.108Z",
+    "user": 1,
+    "content_type": 3,
+    "object_id": "1",
+    "object_repr": "admin",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2025-06-21T06:56:14.539Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "4",
+    "object_repr": "abdulazizhussein4563@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Groups\", \"Staff status\", \"Role\", \"Region\"]}}]"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "admin",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      25,
+      26,
+      27,
+      28,
+      49,
+      50,
+      51,
+      52,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      21,
+      22,
+      23,
+      24,
+      9,
+      10,
+      11,
+      12,
+      5,
+      6,
+      7,
+      8,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ]
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ht6vuodrkqj06fl7efodhqbysgml4os9",
+  "fields": {
+    "session_data": ".eJxVjMsOwiAUBf-FtSG0BS64dN9vIPeBUjU0Ke3K-O_apAvdnpk5L5VwW0vaWl7SJOqsOnX63Qj5kesO5I71Nmue67pMpHdFH7TpcZb8vBzu30HBVr41gZUuAF2jjwYCYuy9ZZ9NDIxA1rB3NEAeLJlgxDEPIBIdWCe94ajeH9dkN4U:1uRWWn:ALyCq_LDCoxK0jHjXnkldR5oXJEpY61vbOVw-igquMo",
+    "expire_date": "2025-07-01T13:39:05.536Z"
+  }
+},
+{
+  "model": "api.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$EOqCktICDLbeP84EVqY7P0$gmML+CGylBaeFVR+OhBKs4ybTcIAB8kNg2PWP6Kklkg=",
+    "last_login": "2025-06-17T13:39:05Z",
+    "is_superuser": true,
+    "is_staff": true,
+    "date_joined": "2025-06-17T13:38:09Z",
+    "email": "nickfury@gmail.com",
+    "first_name": "Nick",
+    "last_name": "Fury",
+    "role": "admin",
+    "region": "global",
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "api.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$uerRBhoilQQJDHtRXbF5iv$Xxed2dD186thdQsLYkoo37klhRUA/SkL6XZkrFwlCHo=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": true,
+    "date_joined": "2025-06-19T06:18:53Z",
+    "email": "jane@customer.com",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "role": "manager",
+    "region": "america",
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "api.user",
+  "pk": 4,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$PLuGyonGccmxWkZPkP6LyQ$8U7Kj3EkrcEav8teBJPfLt6OPjfC8RR+9iA+NIZqK+k=",
+    "last_login": null,
+    "is_superuser": true,
+    "is_staff": true,
+    "date_joined": "2025-06-19T06:39:41Z",
+    "email": "abdulazizhussein4563@gmail.com",
+    "first_name": "Jane",
+    "last_name": "Doe",
+    "role": "admin",
+    "region": "global",
+    "is_active": true,
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "api.user",
+  "pk": 5,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$RKin3K2jo3gk44Wm5CjEXD$A5RVh4Sw+2+comxGlT63/CtW+NIkKtQafEbNDVpb6X4=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": false,
+    "date_joined": "2025-06-19T06:56:23.479Z",
+    "email": "Paul@work.com",
+    "first_name": "Paul",
+    "last_name": "Lovington",
+    "role": "member",
+    "region": "america",
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "api.user",
+  "pk": 6,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$lJIHURdhxhfQlGAyc0HVRt$n5nDR4kRURabPiHXxxCHv5U2JObEzqJM7Dt/RsNA5Q0=",
+    "last_login": null,
+    "is_superuser": false,
+    "is_staff": false,
+    "date_joined": "2025-06-21T06:23:59.017Z",
+    "email": "abdul.9.hussein@gmail.com",
+    "first_name": "Abdulaziz",
+    "last_name": "Hussein",
+    "role": "member",
+    "region": "india",
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "api.restaurant",
+  "pk": 1,
+  "fields": {
+    "name": "Mahal",
+    "description": "The embodiment of Indian Cuisine",
+    "cuisine_type": "Traditional",
+    "region": "india",
+    "rating": "8",
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076716/Taj_sffmb9.jpg",
+    "is_active": true,
+    "created_by": 1,
+    "created_at": "2025-06-17T13:43:40.026Z",
+    "updated_at": "2025-06-17T13:43:40.026Z"
+  }
+},
+{
+  "model": "api.restaurant",
+  "pk": 2,
+  "fields": {
+    "name": "Sarur",
+    "description": "Indian Delights",
+    "cuisine_type": "Traditional",
+    "region": "india",
+    "rating": "9",
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076716/South_Delhi_cgjs4c.jpg",
+    "is_active": true,
+    "created_by": 1,
+    "created_at": "2025-06-17T13:44:52.140Z",
+    "updated_at": "2025-06-17T13:44:52.140Z"
+  }
+},
+{
+  "model": "api.restaurant",
+  "pk": 3,
+  "fields": {
+    "name": "Jones",
+    "description": "Full English",
+    "cuisine_type": "English",
+    "region": "america",
+    "rating": "8",
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076244/Jones_cesxmt.jpg",
+    "is_active": true,
+    "created_by": 1,
+    "created_at": "2025-06-17T13:46:01.349Z",
+    "updated_at": "2025-06-17T13:46:01.349Z"
+  }
+},
+{
+  "model": "api.restaurant",
+  "pk": 4,
+  "fields": {
+    "name": "Olive Garden",
+    "description": "We feed the nation",
+    "cuisine_type": "Modern",
+    "region": "america",
+    "rating": "9",
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750077240/olive_garden_dzvfui.jpg",
+    "is_active": true,
+    "created_by": 1,
+    "created_at": "2025-06-17T13:46:59.267Z",
+    "updated_at": "2025-06-17T13:46:59.268Z"
+  }
+},
+{
+  "model": "api.category",
+  "pk": 1,
+  "fields": {
+    "name": "Appetizer",
+    "slug": "appetizer"
+  }
+},
+{
+  "model": "api.category",
+  "pk": 2,
+  "fields": {
+    "name": "Beverage",
+    "slug": "beverage"
+  }
+},
+{
+  "model": "api.category",
+  "pk": 3,
+  "fields": {
+    "name": "Main Course",
+    "slug": "main-course"
+  }
+},
+{
+  "model": "api.category",
+  "pk": 4,
+  "fields": {
+    "name": "Desserts",
+    "slug": "desserts"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 1,
+  "fields": {
+    "restaurant": 1,
+    "name": "Samosas",
+    "description": "Samosas",
+    "price": "30.00",
+    "category": 1,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076121/samosas_bxu6ad.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:48:06.948Z",
+    "updated_at": "2025-06-17T13:48:06.948Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 2,
+  "fields": {
+    "restaurant": 1,
+    "name": "Falouda",
+    "description": "Falouda",
+    "price": "80.00",
+    "category": 2,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076124/Falouda_mychrk.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:48:47.427Z",
+    "updated_at": "2025-06-17T13:48:47.427Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 3,
+  "fields": {
+    "restaurant": 1,
+    "name": "Chicken Biryani",
+    "description": "Chicken Biryani",
+    "price": "200.00",
+    "category": 3,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076113/chicken_biryani_ewrd2w.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:49:36.285Z",
+    "updated_at": "2025-06-17T13:49:36.285Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 4,
+  "fields": {
+    "restaurant": 1,
+    "name": "Gulab Jamun",
+    "description": "Gulab Jamun",
+    "price": "50.00",
+    "category": 4,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076114/Gulab_Jamun_cfalnf.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:50:25.901Z",
+    "updated_at": "2025-06-17T13:50:25.901Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 5,
+  "fields": {
+    "restaurant": 2,
+    "name": "Pani Puri",
+    "description": "Pani Puri",
+    "price": "60.00",
+    "category": 4,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076117/Pani_Puri_unlqn6.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:51:22.102Z",
+    "updated_at": "2025-06-17T13:51:22.102Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 6,
+  "fields": {
+    "restaurant": 2,
+    "name": "Murgh Makhani",
+    "description": "Murgh Makhani",
+    "price": "70.00",
+    "category": 3,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076118/Murgh_Makhani_daon0f.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:52:27.331Z",
+    "updated_at": "2025-06-17T13:52:27.331Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 7,
+  "fields": {
+    "restaurant": 2,
+    "name": "Mango Lassi",
+    "description": "Mango Lassi",
+    "price": "50.00",
+    "category": 2,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076141/mango-juice_cif7ej.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:53:18.056Z",
+    "updated_at": "2025-06-17T13:53:18.056Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 8,
+  "fields": {
+    "restaurant": 2,
+    "name": "Papri chaat",
+    "description": "Papri chaat",
+    "price": "70.00",
+    "category": 1,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076117/Papri_chaat_iflngi.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:54:04.446Z",
+    "updated_at": "2025-06-17T13:54:04.446Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 9,
+  "fields": {
+    "restaurant": 3,
+    "name": "Zuppa Toscana Soup",
+    "description": "Zuppa Toscana Soup",
+    "price": "100.00",
+    "category": 1,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076123/Zuppa-Toscana-Soup-f_gaqh2v.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:54:58.194Z",
+    "updated_at": "2025-06-17T13:54:58.194Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 10,
+  "fields": {
+    "restaurant": 3,
+    "name": "Pineapple Juice",
+    "description": "Pineapple Juice",
+    "price": "80.00",
+    "category": 2,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076118/Pineapple_Juice_zicucz.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:55:43.909Z",
+    "updated_at": "2025-06-17T13:55:43.910Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 11,
+  "fields": {
+    "restaurant": 3,
+    "name": "Alfredo Pasta",
+    "description": "Alfredo Pasta",
+    "price": "150.00",
+    "category": 3,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076120/plated-pasta-al-dente_dq9z6m.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:56:32.061Z",
+    "updated_at": "2025-06-17T13:56:32.066Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 12,
+  "fields": {
+    "restaurant": 3,
+    "name": "Cookie Cheese Cake",
+    "description": "Cookie Cheese Cake",
+    "price": "100.00",
+    "category": 4,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076119/cookie_dough_cheesecake_mimhfg.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:57:16.314Z",
+    "updated_at": "2025-06-17T13:57:16.314Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 13,
+  "fields": {
+    "restaurant": 4,
+    "name": "Salad",
+    "description": "Salad",
+    "price": "50.00",
+    "category": 1,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076122/salad_isfhuc.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:58:03.208Z",
+    "updated_at": "2025-06-17T13:58:03.208Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 14,
+  "fields": {
+    "restaurant": 4,
+    "name": "Avocado Juice",
+    "description": "Avocado Juice",
+    "price": "80.00",
+    "category": 2,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076112/Avocado_k0bp46.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:58:43.962Z",
+    "updated_at": "2025-06-17T13:58:43.962Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 15,
+  "fields": {
+    "restaurant": 4,
+    "name": "Cream Caramel",
+    "description": "Cream Caramel",
+    "price": "120.00",
+    "category": 4,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076113/Cream_Caramel_mdnfon.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T13:59:24.686Z",
+    "updated_at": "2025-06-17T13:59:24.686Z"
+  }
+},
+{
+  "model": "api.menuitem",
+  "pk": 16,
+  "fields": {
+    "restaurant": 4,
+    "name": "Dumplings",
+    "description": "Dumplings",
+    "price": "100.00",
+    "category": 3,
+    "image_url": "https://res.cloudinary.com/dsywxory6/image/upload/v1750076114/dumplings_gmzoxj.jpg",
+    "is_available": true,
+    "created_at": "2025-06-17T14:00:01.523Z",
+    "updated_at": "2025-06-19T09:10:30.473Z"
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 1,
+  "fields": {
+    "customer": 5,
+    "created_at": "2025-06-19T09:05:18.487Z",
+    "updated_at": "2025-06-19T09:05:18.488Z"
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 2,
+  "fields": {
+    "customer": 3,
+    "created_at": "2025-06-19T13:35:03.823Z",
+    "updated_at": "2025-06-19T13:35:03.823Z"
+  }
+},
+{
+  "model": "api.cart",
+  "pk": 3,
+  "fields": {
+    "customer": 6,
+    "created_at": "2025-06-21T06:32:58.544Z",
+    "updated_at": "2025-06-21T06:32:58.544Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 1,
+  "fields": {
+    "customer": 3,
+    "restaurant": 4,
+    "status": "cancelled",
+    "payment_method": "card",
+    "total_amount": "50.00",
+    "special_instructions": "",
+    "created_at": "2025-06-19T13:35:17.907Z",
+    "updated_at": "2025-06-20T14:44:49.735Z",
+    "placed_at": null,
+    "cancelled_at": "2025-06-20T14:44:49.735Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 2,
+  "fields": {
+    "customer": 3,
+    "restaurant": 4,
+    "status": "cancelled",
+    "payment_method": "paypal",
+    "total_amount": "50.00",
+    "special_instructions": "",
+    "created_at": "2025-06-20T12:42:29.754Z",
+    "updated_at": "2025-06-20T15:14:11.643Z",
+    "placed_at": null,
+    "cancelled_at": "2025-06-20T15:14:11.642Z"
+  }
+},
+{
+  "model": "api.order",
+  "pk": 3,
+  "fields": {
+    "customer": 3,
+    "restaurant": 4,
+    "status": "confirmed",
+    "payment_method": "paypal",
+    "total_amount": "50.00",
+    "special_instructions": "",
+    "created_at": "2025-06-20T15:13:23.762Z",
+    "updated_at": "2025-06-20T15:13:23.762Z",
+    "placed_at": null,
+    "cancelled_at": null
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "menu_item": 13,
+    "quantity": 1,
+    "price": "50.00",
+    "special_instructions": ""
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "menu_item": 13,
+    "quantity": 1,
+    "price": "50.00",
+    "special_instructions": ""
+  }
+},
+{
+  "model": "api.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "menu_item": 13,
+    "quantity": 1,
+    "price": "50.00",
+    "special_instructions": ""
+  }
+}
+]

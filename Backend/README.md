@@ -95,12 +95,16 @@ Backend/
    python manage.py createsuperuser
    ```
 
-7. **Run the development server:**
+8. **load the database:**
+   ```bash
+   python manage.py loaddata data.json
+   ```
+8. **Run the development server:**
    ```bash
    python manage.py runserver
    ```
 
-8. **Access the API:**
+9. **Access the API:**
    - API Base URL: `http://localhost:8000/api/v1/`
    - Admin Panel: `http://localhost:8000/admin/`
 
@@ -275,7 +279,28 @@ Content-Type: application/json
 
 ```
 
+### Database & Admin
 
+```bash
+python manage.py migrate
+python manage.py createsuperuser
+```
+
+## API Collection
+
+- See `/Backend/api/urls.py` for all endpoints.
+- Use Swagger UI - - Swagger: `http://localhost:8000/api/schema/swagger-ui/`.
+
+## Datasets
+
+- Example data in `db.sqlite3` (SQLite, for demo/dev).
+
+## Architecture & Design
+
+- See `api/models.py` for data models.
+- See `api/views.py` for business logic.
+- See `api/permissions.py` for role-based access.
+- See `restaurant/settings.py` for configuration.
 
 
 ## 🔒 Security Features
