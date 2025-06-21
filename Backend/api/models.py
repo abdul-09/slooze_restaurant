@@ -40,7 +40,7 @@ class User(AbstractUser):
     is_active = models.BooleanField(default=True)
     
     USERNAME_FIELD = 'email'
-    REQUIRED_FIELDS = ['first_name', 'last_name', 'region']
+    REQUIRED_FIELDS = ['first_name', 'email', 'region']
 
     objects = CustomUserManager()
 
