@@ -111,13 +111,6 @@ const Register: React.FC = () => {
                     id="last_name"
                     type="text"
                     autoComplete="family-name"
-                    {...register('last_name', {
-                      required: 'Last name is required',
-                      minLength: {
-                        value: 2,
-                        message: 'Last name must be at least 2 characters',
-                      },
-                    })}
                     className="input pl-10"
                     placeholder="Enter your last name"
                   />
