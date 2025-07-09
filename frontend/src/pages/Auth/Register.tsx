@@ -35,6 +35,27 @@ const Register: React.FC = () => {
     clearError();
   }, [clearError]);
 
+  const demoAccounts = [
+    { email: "captainamerica@gmail.com", label: "Captain America" },
+    { email: "captainmarvel@gmail.com", label: "Captain Marvel" },
+    { email: "thor@gmail.com", label: "Thor" },
+    { email: "thanos@gmail.com", label: "Thanos" },
+    { email: "travis@gmail.com", label: "Travis" },
+  ];
+  const DEMO_PASSWORD = "Benyo0310";
+
+  const { login } = useAuthStore(); // Add login from store
+
+  const handleDemoLogin = async (email: string) => {
+    try {
+      await login(email, DEMO_PASSWORD);
+      toast.success(`Logged in as ${email}`);
+      navigate('/dashboard');
+    } catch (error: any) {
+      toast.error(error.response?.data?.detail || 'Demo login failed');
+    }
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8">
@@ -67,8 +88,28 @@ const Register: React.FC = () => {
             </Link>
           </p>
         </div>
-
-        <form className="mt-8 space-y-6" onSubmit={handleSubmit(onSubmit)}>
+        {/* Demo login section */}
+        <div className="mb-6">
+          <h3 className="text-center text-lg font-semibold mb-2">Try a Demo Account</h3>
+          <div className="flex flex-wrap gap-2 justify-center">
+            {demoAccounts.map((acc) => (
+              <button
+                key={acc.email}
+                type="button"
+                className="btn-secondary"
+                onClick={() => handleDemoLogin(acc.email)}
+              >
+                {acc.label}
+              </button>
+            ))}
+          </div>
+        </div>
+        {/* Registration disabled message */}
+        <div className="bg-yellow-50 border border-yellow-200 rounded-md p-4 text-center mb-4">
+          <p className="text-sm text-yellow-700 font-semibold">Registration is temporarily disabled. Please use a demo account to log in.</p>
+        </div>
+        {/* Registration form is disabled/hidden */}
+        {/* <form className="mt-8 space-y-6" onSubmit={handleSubmit(onSubmit)}>
           <div className="space-y-4">
             <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <div>
@@ -275,7 +316,7 @@ const Register: React.FC = () => {
               )}
             </button>
           </div>
-        </form>
+        </form> */}
       </div>
     </div>
   );

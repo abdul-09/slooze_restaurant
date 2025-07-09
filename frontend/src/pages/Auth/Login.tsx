@@ -27,6 +27,25 @@ const Login: React.FC = () => {
     }
   };
 
+  const demoAccounts = [
+    { email: "captainamerica@gmail.com", label: "Captain America" },
+    { email: "captainmarvel@gmail.com", label: "Captain Marvel" },
+    { email: "thor@gmail.com", label: "Thor" },
+    { email: "thanos@gmail.com", label: "Thanos" },
+    { email: "travis@gmail.com", label: "Travis" },
+  ];
+  const DEMO_PASSWORD = "Benyo0310";
+
+  const handleDemoLogin = async (email: string) => {
+    try {
+      await login(email, DEMO_PASSWORD);
+      toast.success(`Logged in as ${email}`);
+      navigate('/dashboard');
+    } catch (error: any) {
+      toast.error(error.response?.data?.detail || 'Demo login failed');
+    }
+  };
+
   React.useEffect(() => {
     clearError();
   }, [clearError]);
@@ -62,6 +81,23 @@ const Login: React.FC = () => {
               create a new account
             </Link>
           </p>
+        </div>
+
+        {/* Demo login section */}
+        <div className="mb-6">
+          <h3 className="text-center text-lg font-semibold mb-2">Try a Demo Account</h3>
+          <div className="flex flex-wrap gap-2 justify-center">
+            {demoAccounts.map((acc) => (
+              <button
+                key={acc.email}
+                type="button"
+                className="btn-secondary"
+                onClick={() => handleDemoLogin(acc.email)}
+              >
+                {acc.label}
+              </button>
+            ))}
+          </div>
         </div>
 
         <form className="mt-8 space-y-6" onSubmit={handleSubmit(onSubmit)}>
